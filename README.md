@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Implementação do motor básico do algoritmo **Byte Pair Encoding (BPE)** do zero e exploração do tokenizador **WordPiece** via Hugging Face, conforme especificado no Laboratório 6 da disciplina.
+Implementação do motor básico do algoritmo **Byte Pair Encoding (BPE)** do zero e exploração do tokenizador **WordPiece** via Hugging Face.
 
 ---
 
