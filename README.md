@@ -30,11 +30,11 @@ python lab6_bpe_tokenizer.py
 
 A função `get_stats(vocab)` percorre cada entrada do vocabulário, divide a string em símbolos e conta quantas vezes cada par adjacente aparece, ponderado pela frequência da palavra no corpus.
 
-**Validação:** o par `('e', 's')` retorna contagem **9** (6 de *newest* + 3 de *widest*). ✔
+**Validação:** o par `('e', 's')` retorna contagem **9** (6 de *newest* + 3 de *widest*).
 
 ### Tarefa 2 — Loop de Fusão (`merge_vocab` + loop K=5)
 
-A função `merge_vocab(pair, v_in)` substitui, em cada entrada do vocabulário, todas as ocorrências **isoladas** do par pelo token fundido. O loop executa 5 iterações, sempre fundindo o par de maior frequência. Resultado observável após as 5 iterações: formação do token morfológico `est</w>`. ✔
+A função `merge_vocab(pair, v_in)` substitui, em cada entrada do vocabulário, todas as ocorrências **isoladas** do par pelo token fundido. O loop executa 5 iterações, sempre fundindo o par de maior frequência. Resultado observável após as 5 iterações: formação do token morfológico `est</w>`.
 
 ### Tarefa 3 — WordPiece com BERT Multilingual
 
