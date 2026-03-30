@@ -63,9 +63,9 @@ Essa estratégia resolve o problema *out-of-vocabulary* (OOV): mesmo que uma pal
 
 Partes deste laboratório foram desenvolvidas com auxílio da IA generativa **Claude (Anthropic)**. Especificamente:
 
-- **Tarefa 2 — `merge_vocab`:** a expressão regular utilizada para identificar e substituir pares isolados de tokens (`(?<!\S)bigram(?!\S)`) foi construída com sugestão da IA e revisada pelo autor para garantir o comportamento correto nas bordas de string.
+- **Tarefa 2 — `merge_vocab`:** a expressão regular utilizada para identificar e substituir pares isolados de tokens (`(?<!\S)bigram(?!\S)`) foi construída com sugestão da IA e revisada pela autora Ingrid para garantir o comportamento correto nas bordas de string.
 
-Todos os demais trechos (estrutura do algoritmo BPE, lógica de contagem de pares, loop principal e integração com Hugging Face) foram escritos e compreendidos pelo autor.
+Todos os demais trechos (estrutura do algoritmo BPE, lógica de contagem de pares, loop principal e integração com Hugging Face) foram escritos e compreendidos pela autora Ingrid.
 
 ---
 
