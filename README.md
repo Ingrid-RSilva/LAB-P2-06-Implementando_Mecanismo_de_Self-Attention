@@ -9,8 +9,7 @@ Implementação do motor básico do algoritmo **Byte Pair Encoding (BPE)** do ze
 ## Estrutura do Projeto
 
 ```
-├── lab6_bpe_tokenizer.py      # Script Python completo (todas as tarefas)
-├── lab6_bpe_tokenizer.ipynb   # Jupyter Notebook com saídas e análises
+├── lab6_bpe_tokenizer.py  
 └── README.md
 ```
 
